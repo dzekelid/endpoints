@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateEndpoint&k=1:
+  /?Action=CreateEndpoint:
     get:
       summary: ' Create Endpoint '
       description: Creates an endpoint using the provided settings
