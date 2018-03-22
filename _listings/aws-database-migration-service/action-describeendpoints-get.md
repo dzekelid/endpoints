@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEndpoints&k=1:
+  /?Action=DescribeEndpoints:
     get:
       summary: ' Describe Endpoints '
       description: Returns information about the endpoints for your account in the
