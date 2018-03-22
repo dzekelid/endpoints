@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DiscoverPollEndpoint&k=1:
+  /?Action=DiscoverPollEndpoint:
     get:
       summary: ' Discover Poll Endpoint '
       description: This action is only used by the Amazon EC2 Container Service agent,
