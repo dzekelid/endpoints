@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyEndpoint&k=1:
+  /?Action=ModifyEndpoint:
     get:
       summary: ' Modify Endpoint '
       description: Modifies the specified endpoint
