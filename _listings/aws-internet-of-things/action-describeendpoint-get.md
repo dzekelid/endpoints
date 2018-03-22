@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEndpoint&k=1:
+  /?Action=DescribeEndpoint:
     get:
       summary: ' Describe Endpoint '
       description: Returns a unique endpoint specific to the AWS account making the
