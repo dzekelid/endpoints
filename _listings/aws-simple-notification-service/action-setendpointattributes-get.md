@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetEndpointAttributes&k=1:
+  /?Action=SetEndpointAttributes:
     get:
       summary: ' Set Endpoint Attributes '
       description: |-
