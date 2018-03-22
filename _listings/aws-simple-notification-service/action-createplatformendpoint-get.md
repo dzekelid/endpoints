@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreatePlatformEndpoint&k=1:
+  /?Action=CreatePlatformEndpoint:
     get:
       summary: ' Create Platform Endpoint '
       description: |-
