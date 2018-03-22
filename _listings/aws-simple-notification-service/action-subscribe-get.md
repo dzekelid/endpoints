@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=Subscribe&k=1:
+  /?Action=Subscribe:
     get:
       summary: ' Subscribe '
       description: Prepares to subscribe an endpoint by sending the endpoint a confirmation
