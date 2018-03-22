@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteEndpoint&k=1:
+  /?Action=DeleteEndpoint:
     get:
       summary: ' Delete Endpoint '
       description: Deletes the endpoint for a device and mobile app from Amazon SNS
