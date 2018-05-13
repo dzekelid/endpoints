@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Delete Endpoint
   version: 1.0.0
+  description: Deletes the specified endpoint.
 schemes:
 - http
 produces:
