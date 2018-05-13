@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-ec2/action-describevpcendpoints-get.md
-- name: AWS EC2 API Delete Vpc Endpoints
-  description: Deletes one or more specified VPC endpoints.
+- name: AWS EC2 API Describe Vpc Endpoints
+  description: Describes one or more of your VPC endpoints.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
   baseURL: http:://{host}//
   tags: Endpoints
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-ec2/action-deletevpcendpoints-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-ec2/action-describevpcendpoints-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
