@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Notification Service API
+  title: AWS Simple Notification Service API Set Endpoint Attributes
   version: 1.0.0
+  description: |-
+    Sets the attributes for an endpoint for a device on one of the supported push notification
+          services, such as GCM and APNS.
 schemes:
 - http
 produces:
