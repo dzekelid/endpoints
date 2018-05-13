@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Container Service API
+  title: Amazon EC2 Container Service API Discover Poll Endpoint
   version: 1.0.0
+  description: This action is only used by the Amazon EC2 Container Service agent,
+    and it is not intended for use outside of the agent.
 schemes:
 - http
 produces:
