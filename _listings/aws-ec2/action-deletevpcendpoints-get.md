@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Delete Vpc Endpoints
   version: 1.0.0
+  description: Deletes one or more specified VPC endpoints.
 schemes:
 - http
 produces:
