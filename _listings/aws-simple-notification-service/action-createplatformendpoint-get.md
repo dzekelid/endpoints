@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Notification Service API
+  title: AWS Simple Notification Service API Create Platform Endpoint
   version: 1.0.0
+  description: |-
+    Creates an endpoint for a device and mobile app on one of the supported push notification
+          services, such as GCM and APNS.
 schemes:
 - http
 produces:
