@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Notification Service API
+  title: AWS Simple Notification Service API List Endpoints By Platform Application
   version: 1.0.0
+  description: |-
+    Lists the endpoints and endpoint attributes for devices in a supported push notification
+          service, such as GCM and APNS.
 schemes:
 - http
 produces:
