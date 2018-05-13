@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: TrafficManagerManagementClient
+  title: Azure Traffic Manager API Endpoints Delete
   version: 1.0.0
+  description: Deletes a Traffic Manager endpoint.
 host: management.azure.com
 basePath: /
 schemes:
