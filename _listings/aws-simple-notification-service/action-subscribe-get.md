@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Notification Service API
+  title: AWS Simple Notification Service API Subscribe
   version: 1.0.0
+  description: Prepares to subscribe an endpoint by sending the endpoint a confirmation
+    message.
 schemes:
 - http
 produces:
