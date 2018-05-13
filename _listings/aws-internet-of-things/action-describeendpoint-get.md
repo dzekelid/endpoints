@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Internet of Things API
+  title: AWS Internet of Things API Describe Endpoint
   version: 1.0.0
+  description: Returns a unique endpoint specific to the AWS account making the call.
 schemes:
 - http
 produces:
