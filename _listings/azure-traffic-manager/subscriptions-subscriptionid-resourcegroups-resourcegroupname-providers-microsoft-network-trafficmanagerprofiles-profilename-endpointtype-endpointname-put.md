@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: TrafficManagerManagementClient
+  title: Azure Traffic Manager API Endpoints Create Or Update
   version: 1.0.0
+  description: Create or update a Traffic Manager endpoint.
 host: management.azure.com
 basePath: /
 schemes:
