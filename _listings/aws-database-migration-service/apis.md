@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-database-migration-service/action-modifyendpoint-get.md
-- name: AWS Database Migration Service API Create Endpoint
-  description: Creates an endpoint using the provided settings.
+- name: AWS Database Migration Service API Delete Endpoint
+  description: Deletes the specified endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
   humanURL: https://aws.amazon.com/dms/
   baseURL: http:://{host}//
   tags: Endpoints
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-database-migration-service/action-createendpoint-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-database-migration-service/action-deleteendpoint-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
