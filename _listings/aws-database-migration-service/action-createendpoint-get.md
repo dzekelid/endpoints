@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Create Endpoint
   version: 1.0.0
+  description: Creates an endpoint using the provided settings.
 schemes:
 - http
 produces:
