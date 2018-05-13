@@ -35,17 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/action-subscribe-get.md
-- name: AWS Simple Notification Service API List Endpoints By Platform Application
+- name: AWS Simple Notification Service API Set Endpoint Attributes
   description: |-
-    Lists the endpoints and endpoint attributes for devices in a supported push notification
-          service, such as GCM and APNS.
+    Sets the attributes for an endpoint for a device on one of the supported push notification
+          services, such as GCM and APNS.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
   baseURL: http:://{host}//
   tags: Endpoints
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/action-listendpointsbyplatformapplication-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/action-setendpointattributes-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SN
