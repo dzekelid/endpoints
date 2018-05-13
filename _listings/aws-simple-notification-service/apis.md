@@ -35,17 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/action-subscribe-get.md
-- name: AWS Simple Notification Service API Create Platform Endpoint
-  description: |-
-    Creates an endpoint for a device and mobile app on one of the supported push notification
-          services, such as GCM and APNS.
+- name: AWS Simple Notification Service API Delete Endpoint
+  description: Deletes the endpoint for a device and mobile app from Amazon SNS.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
   baseURL: http:://{host}//
   tags: Endpoints
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/action-createplatformendpoint-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/action-deleteendpoint-get.md
 x-common:
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SN
