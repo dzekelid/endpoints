@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Simple Notification Service API
+  title: AWS Simple Notification Service API Delete Endpoint
   version: 1.0.0
+  description: Deletes the endpoint for a device and mobile app from Amazon SNS.
 schemes:
 - http
 produces:
