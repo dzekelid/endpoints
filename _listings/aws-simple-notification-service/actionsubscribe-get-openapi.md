@@ -14,40 +14,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreatePlatformEndpoint:
-    get:
-      summary: Create Platform Endpoint
-      description: |-
-        Creates an endpoint for a device and mobile app on one of the supported push notification
-              services, such as GCM and APNS.
-      operationId: createPlatformEndpoint
-      x-api-path-slug: actioncreateplatformendpoint-get
-      parameters:
-      - in: query
-        name: |-
-          Attributes
-                      , Attributes.entry.N.key (key), Attributesentry.N.value (value)
-        description: For a list of attributes, see SetEndpointAttributes
-        type: string
-      - in: query
-        name: CustomUserData
-        description: Arbitrary user data to associate with the endpoint
-        type: string
-      - in: query
-        name: PlatformApplicationArn
-        description: PlatformApplicationArn returned from CreatePlatformApplication
-          is used to create a an endpoint
-        type: string
-      - in: query
-        name: Token
-        description: Unique identifier created by the notification service for an
-          app on a device
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Platform Endpoints
   /?Action=DeleteEndpoint:
     get:
       summary: Delete Endpoint

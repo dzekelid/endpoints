@@ -121,6 +121,92 @@ paths:
           description: OK
       tags:
       - Endpoints
+  /?Action=ModifyEndpoint:
+    get:
+      summary: Modify Endpoint
+      description: Modifies the specified endpoint.
+      operationId: modifyEndpoint
+      x-api-path-slug: actionmodifyendpoint-get
+      parameters:
+      - in: query
+        name: CertificateArn
+        description: The Amazon Resource Name (ARN) of the certificate used for SSL
+          connection
+        type: string
+      - in: query
+        name: DatabaseName
+        description: The name of the endpoint database
+        type: string
+      - in: query
+        name: EndpointArn
+        description: The Amazon Resource Name (ARN) string that uniquely identifies
+          the endpoint
+        type: string
+      - in: query
+        name: EndpointIdentifier
+        description: The database endpoint identifier
+        type: string
+      - in: query
+        name: EndpointType
+        description: The type of endpoint
+        type: string
+      - in: query
+        name: EngineName
+        description: The type of engine for the endpoint
+        type: string
+      - in: query
+        name: ExtraConnectionAttributes
+        description: Additional attributes associated with the connection
+        type: string
+      - in: query
+        name: Password
+        description: The password to be used to login to the endpoint database
+        type: string
+      - in: query
+        name: Port
+        description: The port used by the endpoint database
+        type: string
+      - in: query
+        name: ServerName
+        description: The name of the server where the endpoint database resides
+        type: string
+      - in: query
+        name: SslMode
+        description: The SSL mode to be used
+        type: string
+      - in: query
+        name: Username
+        description: The user name to be used to login to the endpoint database
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Endpoints
+  /?Action=DescribeEndpointTypes:
+    get:
+      summary: Describe Endpoint Types
+      description: Returns information about the type of endpoints available.
+      operationId: describeEndpointTypes
+      x-api-path-slug: actiondescribeendpointtypes-get
+      parameters:
+      - in: query
+        name: Filters
+        description: Filters applied to the describe action
+        type: string
+      - in: query
+        name: Marker
+        description: An optional pagination token provided by a previous      request
+        type: string
+      - in: query
+        name: MaxRecords
+        description: The maximum number of records to include in the response
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Endpoint Types
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -71,6 +71,27 @@ paths:
           description: OK
       tags:
       - VPC Endpoints
+  /?Action=CreateVpcEndpoint:
+    get:
+      summary: Create Vpc Endpoint
+      description: Creates a VPC endpoint for a specified AWS service.
+      operationId: createvpcendpoint
+      x-api-path-slug: actioncreatevpcendpoint-get
+      parameters:
+      - in: query
+        name: DryRun
+        description: Checks whether you have the required permissions for the action,
+          without actually making the request,     and provides an error response
+        type: string
+      - in: query
+        name: VpcEndpointId.N
+        description: One or more endpoint IDs
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - VPC Endpoint
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -15,100 +15,151 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Endpoints
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Simple Notification Service API Create Platform Endpoint
-  x-api-slug: aws-simple-notification-service-api
-  description: |-
-    Creates an endpoint for a device and mobile app on one of the supported push notification
-          services, such as GCM and APNS.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
-  humanURL: https://aws.amazon.com/sns/
-  baseURL: ://///?Action=CreatePlatformEndpoint
-  tags: Platform Endpoints
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actioncreateplatformendpoint-get-openapi.md
-- name: AWS Simple Notification Service API Delete Endpoint
-  x-api-slug: aws-simple-notification-service-api
+- name: AWS Simple Notification Service API - Delete Endpoint
+  x-api-slug: actiondeleteendpoint-get
   description: Deletes the endpoint for a device and mobile app from Amazon SNS.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
-  baseURL: ://///?Action=DeleteEndpoint
-  tags: Endpoints
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actiondeleteendpoint-get-openapi.md
-- name: AWS Simple Notification Service API Get Endpoint Attributes
-  x-api-slug: aws-simple-notification-service-api
+- name: AWS Simple Notification Service API - Get Endpoint Attributes
+  x-api-slug: actiongetendpointattributes-get
   description: |-
     Retrieves the endpoint attributes for a device on one of the supported push notification
           services, such as GCM and APNS.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
-  baseURL: ://///?Action=GetEndpointAttributes
-  tags: Endpoints
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actiongetendpointattributes-get-openapi.md
-- name: AWS Simple Notification Service API List Endpoints By Platform Application
-  x-api-slug: aws-simple-notification-service-api
+- name: AWS Simple Notification Service API - List Endpoints By Platform Application
+  x-api-slug: actionlistendpointsbyplatformapplication-get
   description: |-
     Lists the endpoints and endpoint attributes for devices in a supported push notification
           service, such as GCM and APNS.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
-  baseURL: ://///?Action=ListEndpointsByPlatformApplication
-  tags: Endpoints
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actionlistendpointsbyplatformapplication-get-openapi.md
-- name: AWS Simple Notification Service API Set Endpoint Attributes
-  x-api-slug: aws-simple-notification-service-api
+- name: AWS Simple Notification Service API - Set Endpoint Attributes
+  x-api-slug: actionsetendpointattributes-get
   description: |-
     Sets the attributes for an endpoint for a device on one of the supported push notification
           services, such as GCM and APNS.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
-  baseURL: ://///?Action=SetEndpointAttributes
-  tags: Endpoints
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actionsetendpointattributes-get-openapi.md
-- name: AWS Simple Notification Service API Subscribe
-  x-api-slug: aws-simple-notification-service-api
+- name: AWS Simple Notification Service API - Subscribe
+  x-api-slug: actionsubscribe-get
   description: Prepares to subscribe an endpoint by sending the endpoint a confirmation
     message.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
-  baseURL: ://///?Action=Subscribe
-  tags: Endpoints
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actionsubscribe-get-openapi.md
-- name: AWS Simple Notification Service API
-  x-api-slug: aws-simple-notification-service-api
-  description: Amazon Simple Notification Service (Amazon SNS) is a fast, flexible,
-    fully managed push notification service that lets you send individual messages
-    or to fan-out messages to large numbers of recipients. Amazon SNS makes it simple
-    and cost effective to send push notifications to mobile device users, email recipients
-    or even send messages to other distributed services.With Amazon SNS, you can send
-    notifications to Apple, Google, Fire OS, and Windows devices, as well as to Android
-    devices in China with Baidu Cloud Push. You can use SNS to send SMS messages to
-    mobile device users worldwide.Beyond these endpoints, Amazon SNS can also deliver
-    messages toAmazon Simple Queue Service(SQS),AWS Lambda functions, or to any HTTP
-    endpoint.
+- name: AWS Simple Notification Service API - Create Platform Endpoint
+  x-api-slug: actioncreateplatformendpoint-get
+  description: |-
+    Creates an endpoint for a device and mobile app on one of the supported push notification
+          services, such as GCM and APNS.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
   humanURL: https://aws.amazon.com/sns/
   baseURL: :///
-  tags: Endpoints
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actioncreateplatformendpoint-get-openapi.md
+- name: AWS Simple Notification Service API - Delete Endpoint
+  x-api-slug: actiondeleteendpoint-get
+  description: Deletes the endpoint for a device and mobile app from Amazon SNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actiondeleteendpoint-get-openapi.md
+- name: AWS Simple Notification Service API - Get Endpoint Attributes
+  x-api-slug: actiongetendpointattributes-get
+  description: |-
+    Retrieves the endpoint attributes for a device on one of the supported push notification
+          services, such as GCM and APNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actiongetendpointattributes-get-openapi.md
+- name: AWS Simple Notification Service API - List Endpoints By Platform Application
+  x-api-slug: actionlistendpointsbyplatformapplication-get
+  description: |-
+    Lists the endpoints and endpoint attributes for devices in a supported push notification
+          service, such as GCM and APNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actionlistendpointsbyplatformapplication-get-openapi.md
+- name: AWS Simple Notification Service API - Set Endpoint Attributes
+  x-api-slug: actionsetendpointattributes-get
+  description: |-
+    Sets the attributes for an endpoint for a device on one of the supported push notification
+          services, such as GCM and APNS.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AmazonSNS.png
+  humanURL: https://aws.amazon.com/sns/
+  baseURL: :///
+  tags: Amazon Web Services, Notifications, SMS, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Messages, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/aws-simple-notification-service/actionsetendpointattributes-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.simple.email.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.simple.notification.service.stack.network
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SN
 - type: x-console

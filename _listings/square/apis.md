@@ -8,42 +8,192 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Endpoints
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Deletes a timecard. Deleted timecards are still accessible
+- name: Square Connect - Deletes a timecard. Deleted timecards are still accessible
     from Connect API endpoints, but the value of their deleted field is set to true.
     See Handling deleted timecards for more information.
-  x-api-slug: square-connect-api
+  x-api-slug: v1metimecardstimecard-id-delete
   description: Deletes a timecard. Deleted timecards are still accessible from Connect
     API endpoints, but the value of their deleted field is set to true. See Handling
     deleted timecards for more information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
   humanURL: http://square.com
-  baseURL: https://connect.squareup.com////v1/me/timecards/{timecard_id}
-  tags: S,Timecard,,D,Timecards,Are,Still,Accessible,From,Connect,Endpoints,,But,Value,Of,Their,Deleted,Field,Is,Set,To,True,,See,Handling,Deleted,Timecardsmore,Information
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1metimecardstimecard-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1metimecardstimecard-id-delete-openapi.md
-- name: Square Connect API
-  x-api-slug: square-connect-api
-  description: Square helps millions of sellers run their business- from secure credit
-    card processing to point of sale solutions. Get paid faster with Square and sign
-    up today!
+- name: Square Connect - Modifies a timecard's details. This creates an API_EDIT event
+    for the timecard. You can view a timecard's event history with the List Timecard
+    Events endpoint.
+  x-api-slug: v1metimecardstimecard-id-put
+  description: Modifies a timecard's details. This creates an API_EDIT event for the
+    timecard. You can view a timecard's event history with the List Timecard Events
+    endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
   humanURL: http://square.com
   baseURL: https://connect.squareup.com//
-  tags: Endpoints
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1metimecardstimecard-id-put-openapi.md
+- name: Square Connect - Provides non-confidential details for all of a location's
+    associated bank accounts. This endpoint does not provide full bank account numbers,
+    and there is no way to obtain a full bank account number with the Connect API.
+  x-api-slug: v1location-idbankaccounts-get
+  description: Provides non-confidential details for all of a location's associated
+    bank accounts. This endpoint does not provide full bank account numbers, and there
+    is no way to obtain a full bank account number with the Connect API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccounts-get-openapi.md
+- name: Square Connect - Provides non-confidential details for a merchant's associated
+    bank account. This endpoint does not provide full bank account numbers, and there
+    is no way to obtain a full bank account number with the Connect API.
+  x-api-slug: v1location-idbankaccountsbank-account-id-get
+  description: Provides non-confidential details for a merchant's associated bank
+    account. This endpoint does not provide full bank account numbers, and there is
+    no way to obtain a full bank account number with the Connect API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccountsbank-account-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccountsbank-account-id-get-openapi.md
+- name: Square Connect - Modifies a timecard's details. This creates an API_EDIT event
+    for the timecard. You can view a timecard's event history with the List Timecard
+    Events endpoint.
+  x-api-slug: v1metimecardstimecard-id-put
+  description: Modifies a timecard's details. This creates an API_EDIT event for the
+    timecard. You can view a timecard's event history with the List Timecard Events
+    endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1metimecardstimecard-id-put-openapi.md
+- name: Square Connect - Provides non-confidential details for all of a location's
+    associated bank accounts. This endpoint does not provide full bank account numbers,
+    and there is no way to obtain a full bank account number with the Connect API.
+  x-api-slug: v1location-idbankaccounts-get
+  description: Provides non-confidential details for all of a location's associated
+    bank accounts. This endpoint does not provide full bank account numbers, and there
+    is no way to obtain a full bank account number with the Connect API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccounts-get-openapi.md
+- name: Square Connect - Provides non-confidential details for a merchant's associated
+    bank account. This endpoint does not provide full bank account numbers, and there
+    is no way to obtain a full bank account number with the Connect API.
+  x-api-slug: v1location-idbankaccountsbank-account-id-get
+  description: Provides non-confidential details for a merchant's associated bank
+    account. This endpoint does not provide full bank account numbers, and there is
+    no way to obtain a full bank account number with the Connect API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccountsbank-account-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccountsbank-account-id-get-openapi.md
+- name: Square Connect - Provides non-confidential details for a merchant's associated
+    bank account. This endpoint does not provide full bank account numbers, and there
+    is no way to obtain a full bank account number with the Connect API.
+  x-api-slug: v1location-idbankaccountsbank-account-id-get
+  description: Provides non-confidential details for a merchant's associated bank
+    account. This endpoint does not provide full bank account numbers, and there is
+    no way to obtain a full bank account number with the Connect API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccountsbank-account-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccountsbank-account-id-get-openapi.md
+- name: Square Connect - Provides non-confidential details for all of a location's
+    associated bank accounts. This endpoint does not provide full bank account numbers,
+    and there is no way to obtain a full bank account number with the Connect API.
+  x-api-slug: v1location-idbankaccounts-get
+  description: Provides non-confidential details for all of a location's associated
+    bank accounts. This endpoint does not provide full bank account numbers, and there
+    is no way to obtain a full bank account number with the Connect API.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1location-idbankaccounts-get-openapi.md
+- name: Square Connect - Modifies a timecard's details. This creates an API_EDIT event
+    for the timecard. You can view a timecard's event history with the List Timecard
+    Events endpoint.
+  x-api-slug: v1metimecardstimecard-id-put
+  description: Modifies a timecard's details. This creates an API_EDIT event for the
+    timecard. You can view a timecard's event history with the List Timecard Events
+    endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/endpoints/master/_listings/square/v1metimecardstimecard-id-put-openapi.md
 x-common:
 - type: x-website
   url: http://square.com
+- type: x-api-gallery
+  url: http://spreaker.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://square.stack.network
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase

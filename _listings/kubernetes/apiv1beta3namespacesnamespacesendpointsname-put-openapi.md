@@ -104,6 +104,56 @@ paths:
       - Namespaces
       - Endpoints
       - Name
+  /api/v1beta3/watch/endpoints:
+    get:
+      summary: Get Watch Endpoints
+      description: Watch a list of endpoints.
+      operationId: watchEndpointslist
+      x-api-path-slug: apiv1beta3watchendpoints-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Watch
+      - Endpoints
+  /api/v1beta3/watch/namespaces/{namespaces}/endpoints:
+    get:
+      summary: Get Watch Namespaces Endpoints
+      description: Watch a list of endpoints.
+      operationId: watchEndpointslist
+      x-api-path-slug: apiv1beta3watchnamespacesnamespacesendpoints-get
+      parameters:
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Watch
+      - Namespaces
+      - Endpoints
+  /api/v1beta3/watch/namespaces/{namespaces}/endpoints/{name}:
+    get:
+      summary: Get Watch Namespaces Endpoints Name
+      description: Watch a particular endpoints.
+      operationId: watchEndpoints
+      x-api-path-slug: apiv1beta3watchnamespacesnamespacesendpointsname-get
+      parameters:
+      - in: path
+        name: name
+        description: name of the Endpoints
+      - in: path
+        name: namespaces
+        description: object name and auth scope, such as for teams and projects
+      responses:
+        200:
+          description: OK
+      tags:
+      - Watch
+      - Namespaces
+      - Endpoints
+      - Name
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
